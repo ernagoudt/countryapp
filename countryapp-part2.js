@@ -2,7 +2,7 @@
 
 var jsonReader = require("./json-file-reader.js")
 
-function findCountry(country){
+var findCountry = function (country){
   country = process.argv[2]
   for (var i = 0; i < parsedData.length; i++) {
   if (parsedData[i].name == country){

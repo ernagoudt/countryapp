@@ -10,10 +10,10 @@ fs.readFile("countries.json", function (err,data) {
 
   ParsedData = JSON.parse(data)
     for (var i = 0; i < ParsedData.length; i++) {
-      if (ParsedData[i].name == country){
+/*      if (ParsedData[i].name == country){
          console.log(ParsedData[i].name)
          console.log(ParsedData[i].topLevelDomain)
-      }
+      }*/
 
     }
 
