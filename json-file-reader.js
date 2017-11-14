@@ -7,7 +7,7 @@ module.exports = {
         throw err;
       }
       parsedData = JSON.parse(data)
-      callback()
+      callback(parsedData)
     })
   }
 }
